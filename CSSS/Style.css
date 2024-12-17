@@ -1,0 +1,82 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(1, 0, 16) 0%, rgb(31, 0, 25) 35%, rgb(32, 0, 7) 100%);
+    padding: 20px;
+}
+header {
+    background-color: transparent;
+}
+
+header, footer{
+    background-color: rgb(31, 0, 25);
+    background: linear-gradient(90deg, rgb(1, 0, 16) 0%, rgb(31, 0, 25) 35%, rgb(32, 0, 7) 100%);
+    color: #ffffff;
+    height: fit-content;
+}
+
+
+.Page0{
+    background: rgba(38, 38, 38, 0.682);
+    border-radius: 25px;
+    width: 20%;
+    height: 25px;
+}
+.Page1{
+    background: rgba(38, 38, 38, 0.173);
+    border-radius: 25px;
+    width: 15%;
+    height: 150px;
+}
+.Page2{
+    background: rgba(38, 38, 38, 0.173);
+    border-radius: 25px;
+    width: 80%;
+    height: 350px;
+}
+.Page3{
+    background: rgba(38, 38, 38, 0.173);
+    border-radius: 25px;
+    width: 80%;
+    height: 350px;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Page4{
+    background: rgba(38, 38, 38, 0.173);
+    border-radius: 25px;
+    width: 50%;
+    height: 450px;
+    grid-column: auto;
+    margin-right: 20px;
+}
+.Page45{
+    background: rgba(38, 38, 38, 0.173);
+    border-radius: 25px;
+    width: 29%;
+    height: 450px;
+    grid-column: auto;
+}
+button{
+    background: transparent;
+    border-radius: 25px;
+    pointer-events: initial;
+    margin: 0 2px;
+}
+.button1 {
+    background: rgba(38, 38, 38, 0.173);
+    color: transparent;
+    border: 2px;
+    fill-opacity:0% ;
+  }
+
+p,a,h1,h3{
+    color: rgb(255, 255, 255);
+}
+h4{
+    width: 500px;
+    color: rgb(255, 255, 255);
+}
